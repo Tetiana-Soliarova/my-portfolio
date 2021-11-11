@@ -1,16 +1,17 @@
 import React from "react";
+import style from './header.module.css';
 
 
 function Header() {
     return (
-      <header>
+      <header className={style.header}>
         <h1>Солярова Татьяна</h1>
-        <br />
+      
         FRONTEND DEVELOPER
         <br />
-        HTML-ВЕРСТАЛЬЩИК / WEB-РАЗРАБОТЧИК
+        HTML-ВЕРСТАЛЬЩИК 
         <br />
-        ПРОГРАММИСТ JS / REACT JS 
+        ПРОГРАММИСТ REACT JS 
       </header>
     );
 }

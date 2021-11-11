@@ -1,12 +1,27 @@
 .fon{
     background-image: url(./fon.jpg);
     background-repeat: no-repeat;
-    width: 1600px;
-   /* margin-left: auto;
+ position: relative;
+    /*margin-left: auto;
     margin-right: auto;*/
 }
 .section{
+    /*width: 100%;*/
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+
+   /* margin-right: 50px;
+    margin-left: 50px;*/
+    display: flex;
+    
+}
+.photo{
+    display: block;
+   /* padding-right: 30px;*/
+    padding-bottom: 0px;
+}
+.myPhoto{
+    float: right;
+    
 }

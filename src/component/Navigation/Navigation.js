@@ -8,9 +8,13 @@ function Navigation() {
     return (
         <div className={style.fon}>
             <div className={style.section}>
-            <Header />
-            <AuthNav/>
-                <img src={photo} alt="myPhoto" />
+                
+                
+                <div className={style.photo} >
+                    <Header />
+                    <img src={photo} alt="myPhoto" className={style.myPhoto} />
+                    <AuthNav />
+                </div>
             </div>
             
         </div>

@@ -1,0 +1,19 @@
+.header{
+   font-size: 36px;
+   top: 20px;
+    left: 450px;
+
+   position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+font-family: Dancing Script;
+font-weight: 700;
+    
+}
+.header h1{
+   
+   font-family: Pacifico; 
+    font-size: 86px;
+    bottom: 50px;
+}

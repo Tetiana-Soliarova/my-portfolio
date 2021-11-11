@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin-top: 0px;
+    padding-left: 0px;
+   /* font-family: Dancing Script;
+    font-weight: 700;*/
+}
+
+
+.authNav { 
+    font-family: Dancing Script;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+ height: 30px;
+    margin: 0px;
+  font-weight: bold;
+  padding: 0 0 5px 0;
+  color: #201e1e;
+}
+
+/*анимация*/
+.nav h2:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  background-color: #2b2525;
+  -webkit-transition: all .1s ease;
+  transition: all 0.3s ease;  
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.nav h2:hover:after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
