@@ -3,22 +3,22 @@ import React, { Component, Suspense} from 'react';
 import Container from './component/Container/Container'
 import Navigation from './component/Navigation/Navigation';
 import AboutMe from './component/AboutMe/AboutMe';
+import Portfolio from "./component/Portfolio/Portfolio";
+import Contact from './component/Contact/Contact';
 
 
 class App extends Component {
   
   render() {
     return (
-      <Container>
-        
-        
+      <Container> <Suspense fallback={<p>Загружаем...</p>}>
         <Navigation />
-        <AboutMe/>
-        <Suspense fallback={<p>Загружаем...</p>}>
-          
-        </Suspense>
+        <AboutMe />
+        <Portfolio />
+        <Contact/>
+       </Suspense>
       </Container>
-    )
+    );
   }
 }
 

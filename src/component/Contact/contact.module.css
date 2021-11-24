@@ -1,0 +1,14 @@
+.contact{
+      
+    display: block;
+    width: 200px;
+    font-family: Pacifico; 
+    font-size: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(68, 26, 40);
+    
+}
+.line{
+    margin: 0px;
+}

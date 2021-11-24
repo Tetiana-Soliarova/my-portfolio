@@ -1,12 +1,17 @@
 .fon{
-    background-image: url(./fon.jpg);
+    
+    background:  url(./fon19.png), url(./fon17.jpg);   
     background-repeat: no-repeat;
+    background-size: concat;
  position: relative;
-    /*margin-left: auto;
+ top: 0px;
+ 
+ 
+ /*margin-left: auto;
     margin-right: auto;*/
 }
 .section{
-    /*width: 100%;*/
+    
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;

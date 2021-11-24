@@ -31,7 +31,7 @@
   left: 0;
   bottom: 0;
   visibility: hidden;
-  background-color: #2b2525;
+  background-color: rgb(68, 26, 40);
   -webkit-transition: all .1s ease;
   transition: all 0.3s ease;  
   -webkit-transform: scaleX(0);
@@ -44,4 +44,7 @@
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
+}
+.nav h2:hover {
+  color: rgb(68, 26, 40);
 }
