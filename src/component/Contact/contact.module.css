@@ -1,4 +1,4 @@
-.contact{
+.contactTitle{
       
     display: block;
     width: 200px;
@@ -7,8 +7,56 @@
     margin-right: auto;
     margin-left: auto;
     color: rgb(68, 26, 40);
-    
+    text-shadow: 5px 5px 5px rgb(68, 26, 40 , 0.6);
 }
 .line{
     margin: 0px;
+}
+.imgContact{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 26, 40);
+    border-radius: 50%;
+    border: 20px solid rgb(68, 26, 40);
+    
+}
+
+.imgBlock:hover .imgContact{
+    border: 20px solid rgb(68, 26, 40);
+     -webkit-transform: rotateZ(-10deg);
+  -ms-transform: rotateZ(-10deg);
+  transform: rotateZ(-10deg);
+}
+.imgBlock:hover .pContact:hover{
+    font-size: 31px;
+    text-shadow: 5px 5px 5px rgb(68, 26, 40 , 0.6);
+}
+.imgBlock{
+    text-decoration: none;
+    
+}
+
+.imgBlock p{
+    font-family: Dancing Script;
+  font-size: 30px;
+  color: rgb(68, 26, 40);
+  display: block;
+  text-align: center;
+    
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.contact .containerImg{
+    display: block;
+    margin: 20px;
+    
+    
+}
+.contactSection{
+    background-image: url(./fon2.jpg);
 }

@@ -4,8 +4,8 @@ import style from './AuthNav.module.css'
 
 function AuthNav() {
   return (
-    <div>
-      
+    <div >
+      <div className={style.authNavContainer}>
       <ul className={style.nav}>
         <NavLink to="/home">
           <h2 className={style.authNav}>Главная</h2>
@@ -21,7 +21,7 @@ function AuthNav() {
           <h2 className={style.authNav}>Контакти</h2>
         </NavLink>
       </ul>
-      
+      </div>
     </div>
   );
 }

@@ -1,4 +1,7 @@
-
+.fon{
+  background-image: url(./fon4.jpg);
+    background-repeat: no-repeat;
+}
 
 .container{
  
@@ -9,6 +12,8 @@ flex-direction: row;
 justify-content: space-between;
 margin-left: auto;
 margin-right: auto;
+
+
 }
 .row{
    position: relative;
@@ -19,7 +24,7 @@ border-radius: 20px;
 
 margin: 20px;
 background-size: cover;
- 
+ box-shadow:  5px 5px 5px rgb(68, 26, 40 , 0.6);
 }
 
 .blok{
@@ -52,7 +57,7 @@ background-size: cover;
     margin-right: auto;
     margin-left: auto;
     color: rgb(68, 26, 40);
-    
+    text-shadow: 5px 5px 5px rgb(68, 26, 40 , 0.6);
 }
 .line{
     margin: 0px;

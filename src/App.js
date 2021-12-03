@@ -6,12 +6,12 @@ import AboutMe from './component/AboutMe/AboutMe';
 import Portfolio from "./component/Portfolio/Portfolio";
 import Contact from './component/Contact/Contact';
 
-
 class App extends Component {
   
   render() {
     return (
       <Container> <Suspense fallback={<p>Загружаем...</p>}>
+       
         <Navigation />
         <AboutMe />
         <Portfolio />

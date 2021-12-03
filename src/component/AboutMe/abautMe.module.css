@@ -1,8 +1,9 @@
-/*.section{
-    background-image: url(./fon6.png);
+.section{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./fon4.jpg);
     background-repeat: no-repeat;
-    opacity: 0.4;
-}*/
+}
 .about{
       
     display: block;
@@ -12,18 +13,30 @@
     margin-right: auto;
     margin-left: auto;
     color: rgb(68, 26, 40);
-    
+    text-shadow: 5px 5px 5px rgb(68, 26, 40 , 0.6);
 }
 .aboutMe{
     font-family: Dancing Script; 
-    display: flex;
-    justify-content: space-evenly;
+    
+   /* display: flex;
+    justify-content: space-evenly;*/
     
     
 }
 .aboutMe div{
-    width: 500px;
+   /* width: 500px;*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
     font-size: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.aboutMe div p{
+   text-align: center;
+    
 }
 h3{
    font-size: 36px; 
@@ -35,8 +48,9 @@ h3{
     flex-wrap: wrap;
     list-style-type: none;
     margin: 2px;
-    text-align: justify;
-    
+    /*text-align: center;*/
+    justify-content: center;
+    margin-bottom: 20px;
     
 }
 .aboutMe ul li{
@@ -54,8 +68,10 @@ h3{
     
     
 }
-.aboutImg, .iconP{
+.aboutImg{
 width: 150px;
+}
+.aboutImg, .iconP{
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -74,3 +90,7 @@ margin-right: auto;
     
 }
 
+.aboutMe .mySkills{
+    display: block;
+    flex-direction: column-reverse;
+}

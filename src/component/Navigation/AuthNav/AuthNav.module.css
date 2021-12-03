@@ -2,31 +2,34 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 1200px;
+   width: 100%;
     margin-top: 0px;
     padding-left: 0px;
-   /* font-family: Dancing Script;
-    font-weight: 700;*/
+    
+    
 }
-
+.authNavContainer{
+ border: 2px solid rgb(68, 26, 40 , 0.1);
+  background: rgb(68, 26, 40 , 0.7);
+}
 
 .authNav { 
     font-family: Dancing Script;
   text-decoration: none;
   display: inline-block;
   position: relative;
- height: 30px;
-    margin: 0px;
+  height: 50px;
+  margin: 0px;
   font-weight: bold;
-  padding: 0 0 5px 0;
-  color: #201e1e;
+  padding: 15px 0 0 0;
+  color: #e4dcdc;
 }
 
 /*анимация*/
 .nav h2:after {
   content: '';
   position: absolute;
-  height: 2px;
+  height: 3px;
   width: 100%;
   left: 0;
   bottom: 0;

@@ -1,19 +1,28 @@
-.header{
-   font-size: 36px;
-   top: 20px;
-    left: 450px;
+.header {
+  font-size: 36px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Dancing Script;
+  font-weight: 700;
 
-   position: absolute;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-font-family: Dancing Script;
-font-weight: 700;
-    
+  width: 100%;
+  background: url(./fon19.png), url(./fon2.jpg);
+  background-size: concat;
 }
-.header h1{
-   color: rgb(68, 26, 40);
-   font-family: Pacifico; 
-    font-size: 86px;
-    bottom: 50px;
+.header h1 {
+  color: rgb(68, 26, 40);
+  font-family: Pacifico;
+  font-size: 86px;
+  bottom: 50px;
+  text-shadow: 5px 5px 5px rgb(68, 26, 40 , 0.6);
+}
+.photo {
+  display: block;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+.myPhoto {
+  float: right;
 }
