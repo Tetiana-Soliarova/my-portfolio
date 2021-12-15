@@ -31,14 +31,13 @@ function Contact() {
               ></img>
             </div>
 
-            <p>Send Personal Message</p>
+            <p className={style.pContact}>Send Personal Message</p>
           </a>
           <a
             href="https://www.linkedin.com/in/%D1%82%D0%B0%D0%BD%D1%8F-%D1%81%D0%BE%D0%BB%D1%8F%D1%80%D0%BE%D0%B2%D0%B0-a2a6b1200/?msgControlName=reply_to_sender&msgConversationId=2-MjI4OWJiZjUtNDY2Yy00N2VkLThlN2EtMjUwN2Q3MjAzYmVjXzAxMA%3D%3D&msgOverlay=true"
             target="blank"
             className={style.imgBlock}
           >
-            {" "}
             <div className={style.containerImg}>
               <img
                 src={linkedin}
@@ -46,7 +45,7 @@ function Contact() {
                 className={style.imgContact}
               ></img>
             </div>
-            <p>LinkeDin</p>
+            <p className={style.pContact}>LinkeDin</p>
           </a>
 
           <a href="mailto:t.s.scorpi1991@ukr.net" className={style.imgBlock}>
@@ -54,7 +53,7 @@ function Contact() {
               <img src={mail} alt="imageImg" className={style.imgContact}></img>
             </div>
 
-            <p>t.s.scorpi1991@ukr.net</p>
+            <p className={style.pContact}>t.s.scorpi1991@ukr.net</p>
           </a>
         </div>
       </div>

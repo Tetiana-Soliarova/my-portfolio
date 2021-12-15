@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./portfolio.module.css";
+import style from "../../../src/component/Portfolio/portfolio.module.scss";
 /*import { Link } from "react-router-dom";*/
 /*import { Route } from "react-router-dom";*/
 import webStudio from './web_studio.jpg';

@@ -1,17 +1,8 @@
 import React from "react";
 import style from './abautMe.module.css';
+
 import aboutImg from './about.png';
 import imageP from "./svg/portfolio.svg";
-/*import imageSv from "./svg/figma.svg";
-
-import imageHt from "./svg/html.svg";
-
-import imageR from "./svg/react.svg";
-
-import imageN from "./svg/npm.svg";
-import imageW from "./svg/webpack.svg";
-import imageJs from "./svg/js.svg";
-import imageS from "./svg/scss_i.svg";*/
 import Slider from "./Slide"
 
 
@@ -24,7 +15,7 @@ function AboutMe() {
 
         <div className={style.aboutMe}>
           <div>
-            <img src={aboutImg} alt="imageImg" className={style.aboutImg}></img>
+            <img src={aboutImg} alt="imageImg" className={style.aboutImg }></img>
 
             <h3 className={style.aboutTitle}>Немного о себе</h3>
             <p className={style.aboutMeText}>
@@ -63,15 +54,6 @@ function AboutMe() {
           </div>
         </div>
         <Slider />
-  {/*<div className={style.skill}>
-          <img src={imageN} alt="figma" className={style.icon}></img>
-          <img src={imageHt} alt="figma" className={style.icon}></img>
-          <img src={imageW} alt="figma" className={style.icon}></img>
-          <img src={imageSv} alt="figma" className={style.icon}></img>
-          <img src={imageR} alt="figma" className={style.icon}></img>
-          <img src={imageJs} alt="figma" className={style.icon}></img>
-          <img src={imageS} alt="figma" className={style.icon}></img>
-    </div>*/}
       </div>
     );
 }

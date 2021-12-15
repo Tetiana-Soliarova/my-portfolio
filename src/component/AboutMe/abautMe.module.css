@@ -17,14 +17,9 @@
 }
 .aboutMe{
     font-family: Dancing Script; 
-    
-   /* display: flex;
-    justify-content: space-evenly;*/
-    
-    
+       
 }
 .aboutMe div{
-   /* width: 500px;*/
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -48,7 +43,6 @@ h3{
     flex-wrap: wrap;
     list-style-type: none;
     margin: 2px;
-    /*text-align: center;*/
     justify-content: center;
     margin-bottom: 20px;
     
@@ -94,3 +88,24 @@ margin-right: auto;
     display: block;
     flex-direction: column-reverse;
 }
+
+/*animation
+.aboutImg{
+backface-visibility: visible;
+  animation-name: flip;
+}
+@keyframes lightSpeedIn {
+  0% {transform: translateX(100%) skewX(-30deg);opacity: 0;}
+  60% {transform: translateX(-20%) skewX(30deg);opacity: 1;}
+  80% {transform: translateX(0%) skewX(-15deg);opacity: 1;}
+  100% {transform: translateX(0%) skewX(0deg);opacity: 1;}
+}
+
+
+@keyframes aboutImg {
+  0% {transform: perspective(400px) translateZ(0) rotateY(0) scale(1);animation-timing-function: ease-out;}
+  40% {transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);animation-timing-function: ease-out;}
+  50% {transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);animation-timing-function: ease-in;}
+  80% {transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);animation-timing-function: ease-in;}
+  100% {transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);animation-timing-function: ease-in;}
+}*/
