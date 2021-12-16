@@ -15,7 +15,7 @@ function AboutMe() {
 
         <div className={style.aboutMe}>
           <div>
-            <img src={aboutImg} alt="imageImg" className={style.aboutImg }></img>
+            <img src={aboutImg} alt="imageImg" className={style.aboutImg}></img>
 
             <h3 className={style.aboutTitle}>Немного о себе</h3>
             <p className={style.aboutMeText}>
@@ -33,9 +33,9 @@ function AboutMe() {
 
           <div>
             <div className={style.mySkills}>
-            <img src={imageP} alt="imagep" className={style.iconP}></img>
-            <h3 className={style.aboutMe}>Профессиональные навыки</h3>
-          </div>
+              <img src={imageP} alt="imagep" className={style.iconP}></img>
+              <h3 className={style.aboutMe}>Профессиональные навыки</h3>
+            </div>
             <ul>
               <li>HTML5</li>
               <li>CSS3/SASS</li>
@@ -50,6 +50,8 @@ function AboutMe() {
               <li>Netlify</li>
               <li>Npm</li>
               <li>Bootstrap 4</li>
+              <li>Photoshop</li>
+              <li>Drupal 7</li>
             </ul>
           </div>
         </div>
