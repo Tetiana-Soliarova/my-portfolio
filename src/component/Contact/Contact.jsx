@@ -1,7 +1,5 @@
 import React from "react";
 import style from "./contact.module.css";
-/*import { NavLink } from "react-router-dom";*/
-/*import { Route } from "react-router-dom";*/
 import linkedin from './user-linkedin.png';
 import telegram from "./telegram.svg";
 import mail from "./mailbox.png";
