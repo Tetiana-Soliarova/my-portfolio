@@ -3,11 +3,13 @@ import Header from '../Header/Header'
 import AuthNav from './AuthNav/Authnav';
 
 
+
 function Navigation() {
     return (
         <div>  
                     <Header/>         
-                    <AuthNav/>
+            <AuthNav />
+           
         </div>
     )
 }

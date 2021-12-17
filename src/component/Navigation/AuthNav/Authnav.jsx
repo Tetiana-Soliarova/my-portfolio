@@ -8,7 +8,7 @@ function AuthNav() {
     <div>
       <div className={style.authNavContainer}>
         <ul className={style.nav}>
-          <NavLink to="/">
+          <NavLink to="/home">
             <h2 className={style.authNav}>Главная</h2>
           </NavLink>
           <NavLink to="/about-me">

@@ -7,7 +7,7 @@ import Portfolio from "./component/Portfolio/Portfolio";
 import Contact from './component/Contact/Contact';
 import Home from './component/Home';
 
-import { Route, Routes } from "react-router-dom";
+import { Route,  Switch } from "react-router-dom";
 
 
 
@@ -18,13 +18,17 @@ class App extends Component {
     return (
       <Container>
         <Suspense fallback={<p>Загружаем...</p>}>
-          <Navigation />
-          <Routes>
-            <Route expect path="/" element={<Home />} />
-            <Route path="/about-me" element={<AboutMe />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contacts" element={<Contact />} />
-          </Routes>
+          <Navigation>
+             <Home/>
+            </Navigation >
+        
+          <Switch>
+           
+            <Route expect path="/home" component={Home} />
+            <Route path="/about-me" component={AboutMe} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contacts" component={Contact} />
+          </Switch>
         </Suspense>
       </Container>
     );
