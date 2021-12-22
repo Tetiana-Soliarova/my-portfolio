@@ -19,12 +19,11 @@ class App extends Component {
       <Container>
         <Suspense fallback={<p>Загружаем...</p>}>
           <Navigation>
-             <Home/>
-            </Navigation >
-        
+            <Home />
+          </Navigation>
+
           <Switch>
-           
-            <Route expect path="/home" component={Home} />
+            <Route expect path="/my-portfolio" component={Home} />
             <Route path="/about-me" component={AboutMe} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contacts" component={Contact} />
